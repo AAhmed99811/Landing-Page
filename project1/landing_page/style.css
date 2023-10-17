@@ -1,0 +1,190 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_bar
+{
+    /* background-color: aqua; */
+    height: 50px;
+    flex: 1;
+    padding: 5px 5px;
+    position: relative;
+}
+
+.nav_bar h1
+{
+    padding-left: 30px;
+    color: black;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.nav_bar ul
+{
+    position: absolute;
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+}
+
+.nav_bar ul li
+{
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.nav_bar ul li a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #afbed1;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.btn
+{
+    padding: 5px 15px;
+    float: right;
+}
+
+#sign_In
+{
+    cursor: pointer;
+    margin: 0 15px;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    color: #afbed1;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#started{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 12px 10px;
+    background-color: #0077b6;
+}
+
+.register
+{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register p
+{
+    color: #fff;
+}
+
+.register_btn
+{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 20px;
+    padding: 12px 10px;
+    background-color: #0077b6;
+}
+
+.section
+{
+    position: relative;
+    padding: 75px 10px 0px;
+    height: 80vh;
+    z-index: 4;
+}
+
+.column1
+{
+    position: absolute;
+    /* background-image: url(social-tree-1-1536x1167.png); */
+    top: 10;
+    left:1vw;
+    width: 48vw;
+    height: 78vh;
+    z-index: 5;
+}
+
+.column1 img
+{
+    align-items: center;
+    height: 85vh;
+}
+
+.column2
+{
+    position: absolute;
+    top: 10;
+    left: 50vw;
+    width: 48vw;
+    height: 78vh;
+    z-index: 5;
+}
+
+.column2 h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.column2 p
+{
+    padding: 15px 10px 25px 0px;
+    color: #283618;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.input
+{
+    position: absolute;
+}
+
+.input input
+{
+    padding: 16px 80px 16px 10px;
+    font-size: 15px;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.input button
+{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 35px;
+    background-color: #0077b6;
+}
+
+.text1
+{
+    position: absolute;
+    color: #283618;
+    top: 24rem;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
